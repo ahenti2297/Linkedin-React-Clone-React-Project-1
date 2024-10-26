@@ -59,7 +59,7 @@ const CreatePost = ({props}) => {
           <PostMediasContainer>
             <FaCalendarAlt fontSize="22px" color="#C37D16" />
             <CreatePostTitle>Event</CreatePostTitle>
-          </PostMediasContainer
+          </PostMediasContainer>
 
           <PostMediasContainer>
             <RiArticleFill fontSize="24px" color="#E06847" />
