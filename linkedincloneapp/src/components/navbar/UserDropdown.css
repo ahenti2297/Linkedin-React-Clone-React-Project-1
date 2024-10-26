@@ -1,0 +1,55 @@
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #0A66C2; /* Primary button color */
+    color: white; /* Text color */
+    border: 2px solid #0A66C2; /* Border for the dropdown button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #005A8C; /* Darker shade on hover */
+    border-color: #005A8C; /* Change border color on hover */
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: white; /* Background of dropdown */
+    border: 1px solid #ddd; /* Border around dropdown */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 8px; /* Space between button and dropdown */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 200px; /* Width of the dropdown */
+  }
+  
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Separator line */
+  }
+  
+  .user-name {
+    margin-left: 10px; /* Space between image and name */
+    font-weight: bold; /* Bold name */
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    color: #333; /* Text color */
+    text-decoration: none; /* No underline on links */
+    display: block; /* Makes the whole area clickable */
+    border: 1px solid transparent; /* Default border for dropdown items */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for hover effects */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    border-color: #0A66C2; /* Border color on hover */
+  }
+  
