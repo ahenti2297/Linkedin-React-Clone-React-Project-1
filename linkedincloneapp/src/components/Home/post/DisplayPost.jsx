@@ -36,7 +36,7 @@ const DisplayPost = ({ props }) => {
       `https://academics.newtonschool.co/api/v1/linkedin/post?limit=20&page=${page}`,
       {
         headers: {
-          projectID: "60lfboqs7rjy",
+          projectID: "60lfboqs7rjy"
         },
       }
     )
