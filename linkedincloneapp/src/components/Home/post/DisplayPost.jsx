@@ -33,10 +33,10 @@ const DisplayPost = ({ props }) => {
 
   const fetchingPost = async () => {
     const response = await fetch(
-      `https://academics.newtonschool.co/api/v1/linkedin/post?limit=20&page=${page}`,
+      `https://academics.newtonschool.co/api/v1/linkedin/post?limit=10&page=${page}`,
       {
         headers: {
-          projectID: "60lfboqs7rjy"
+          projectID: "60lfboqs7rjy",
         },
       }
     )
