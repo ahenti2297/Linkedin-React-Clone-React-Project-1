@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { ShowMoreButton, TempContainer, UlTemp } from "../../Styles/Style";
 import { useTheme } from "../../context/ThemeContext";
-import premium from "../../../assets/Images/premium-logo.png";
 import ai from "../../../assets/Images/ai.png";
 
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
